@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.menu a:hover {
+  background: #555;
+  border-radius: 4px;
+}
+
+
+main {
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{margin: 10px;
+    font-size: 100px;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f0f0f0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+/* index02 */
+
+#Albums {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #A69580;
+  padding: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#Albums h1 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+ol {
+  text-align: left;
+  margin-top: 20px;
+}
+
+ol li {
+  margin-bottom: 30px;
+  background: white;
+  padding: 15px;
+  border-left: 5px solid black;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.imagen {
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+  opacity: 0.5; 
+  transition: 0.3s;
+  filter: grayscale(50%);
+}
+
+.imagen:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
